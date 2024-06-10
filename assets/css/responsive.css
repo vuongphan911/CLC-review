@@ -1,0 +1,75 @@
+/*      PC      */
+@media(min-width: 64em){/* <= 1024px*/
+
+}
+
+/*      TABLET & MOBILE      */
+@media(max-width: 63.9375em){/*>= 1023px*/
+#banner{
+    background-position: center;
+    height: 100%;
+    background: url(../img/bg-tablet.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.text-banner .banner-h2{
+    text-shadow: 0 0 2px black;
+
+}
+#banner .text-banner{
+    padding: 32px 0;
+}
+#content .container{
+    max-width: 100%;
+}
+.row .col-md-5 img{
+    height: 50vh;
+}
+#partner img{
+    width: 15vw;
+    height: 15vh;
+    margin: 0 8px;
+}
+#footer{
+    height: 45vh;
+}
+
+}
+/*      TABLET      */
+@media(min-width:46.25em)/* 740px*/ and (max-width:63.9375em){
+#old-student .head-card{
+    height: 40%;
+}
+#old-student .row .col-md-4{
+    margin: 32px auto;
+}
+#old-student .footer-card p{
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+}
+
+/*      MOBILE      */
+@media(max-width: 46.1875em){/* 739px*/
+    #body-training .col-md-5 li{
+        list-style: none;
+        }
+    #footer .container .row{
+                height: 100%;
+                background-color: rgb(11,11,108);
+        }
+    #footer .title-footer{
+        padding: 16px auto;
+    }
+    #old-student .head-card {
+        height: 40%;
+    }
+    #old-student .footer-card img {
+        height: 80%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 10%);
+    }
+}
